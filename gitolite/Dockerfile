@@ -43,6 +43,6 @@ VOLUME /home/$GITUSER/repositories
 VOLUME /etc/ssh
 
 RUN chmod +x /init
-ENTRYPOINT ["/init", "/usr/sbin/sshd", "-D", "$GITUSER"]
+ENTRYPOINT /init $GITUSER
 
 EXPOSE 22
