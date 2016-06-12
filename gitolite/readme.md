@@ -6,7 +6,7 @@ Runs an SSH server, serving gitolite as the git@ user.
 On the first start, it will run "gitolite setup" with a starting ssh key
 you provided, or you can bootstrap with an existing gitolite-admin repository.
 
-On subsequent starts, will run "gitolite setup" everytime to integrate any
+On subsequent starts, will run "gitolite setup" every time to integrate any
 outside changes.
 
 ### Examples
